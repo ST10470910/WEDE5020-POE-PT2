@@ -7,3 +7,4 @@ More detailed content has been added to all the web pages in the website to ensu
 New images have been added to some of the existing web pages.
 The Navigation bar that was not working at optimum efficiency across some the web pages has been fixed, ensuring smooth sailing across the website.
 The site map of the website will also be included for it was forgotten the previous time.
+
