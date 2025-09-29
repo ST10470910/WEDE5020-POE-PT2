@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>United Motions Gallery Page</title>
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(189, 167, 46);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      padding: 20px;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      margin-bottom: 10px;
+    }
+
+    p.intro {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #222;
+      padding: 0 20px;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .Gallery {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .Gallery:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+
+    .Gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: filter 0.3s ease;
+    }
+
+    .Gallery:hover img {
+      filter: brightness(1.1);
+    }
+
+    .description {
+      padding: 10px;
+      font-weight: bold;
+      background: #f0f0f0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background: rgba(0,0,0,0.7);
+      color: white;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pictures of an Overlook of Our Non-Profit Organisation</h1>
+  
+  <p class="intro">
+    Welcome to the United Motions gallery. Here you’ll find a collection of images that showcase our 
+    projects, our team, and the communities we proudly serve. These moments reflect our mission to 
+    build, develop, and uplift.
+  </p>
+
+  <img src="_images/image.png" alt="logo" width="250">
+
+  <div class="gallery-container">
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 2.jpg">
+        <img src="_images/image 2.jpg" alt="construction">
+      </a>
+      <div class="description">Construction</div>
+    </div>
+
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 3.jpg">
+        <img src="_images/image 3.jpg" alt="housing and development">
+      </a>
+      <div class="description">Housing and Development</div>
+    </div>
+
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 4.jpg">
+        <img src="_images/image 4.jpg" alt="landscaping">
+      </a>
+      <div class="description">Landscaping</div>
+    </div>
+
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 9.jpg">
+        <img src="_images/image 9.jpg" alt="community projects">
+      </a>
+      <div class="description">Community Projects</div>
+    </div>
+
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 8.jpg">
+        <img src="_images/image 8.jpg" alt="team at work">
+      </a>
+      <div class="description">Our Team at Work</div>
+    </div>
+
+    <div class="Gallery">
+      <a target="_blank" href="_images/image 10.jpg">
+        <img src="_images/image 10.jpg" alt="completed projects">
+      </a>
+      <div class="description">Completed Projects</div>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>United Motions</strong> — Empowering Communities Through Development</p>
+    <p>For more information, visit our <a href="contactus.html" style="color: #ffd700;">Contact Page</a>.</p>
+  </footer>
+</body>
+</html>

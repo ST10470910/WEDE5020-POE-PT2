@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genesis Construction SA</title>
+  <link href="css/style.css" rel="stylesheet"> 
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: rgb(189, 167, 46);
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: black;
+      font-weight: 600;
+      margin-top: 15px;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    h1:hover, h2:hover {
+      color: white;
+      transform: scale(1.05);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      padding: 10px 15px;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: black;
+      color: white;
+    }
+
+    img {
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+
+   
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: black;
+      max-width: 700px;
+      margin: 10px auto;
+    }
+
+    
+    .about-preview {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .about-preview p {
+      max-width: 800px;
+      margin: 10px auto;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .service-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: gold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="_images/image.png" alt="logo" width="200">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="services.html">Products and Service</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <h1>Foundation for the Future of Industry</h1>
+  </header>
+
+  
+  <section class="hero">
+    <h2>Building Stronger Communities, One Project at a Time</h2>
+    <p>At Genesis Construction SA, we bring innovation, safety, and sustainability together to create buildings that last generations. Whether it’s planning, engineering, or execution, we’ve got you covered.</p>
+  </section>
+
+  
+  <section class="about-preview">
+    <h2>Who We Are</h2>
+    <p>Genesis Construction SA is dedicated to delivering high-quality construction solutions. With years of experience in planning, management, and engineering projects, our mission is to exceed expectations and build trust through every structure we create.</p>
+  </section>
+
+ 
+  <section class="services">
+    <div class="service-card">
+      <h3>Planning</h3>
+      <p>We provide comprehensive project planning that ensures efficiency, cost-effectiveness, and compliance with safety standards.</p>
+    </div>
+    <div class="service-card">
+      <h3>Management</h3>
+      <p>Our management team ensures every project runs smoothly, on schedule, and within budget without compromising quality.</p>
+    </div>
+    <div class="service-card">
+      <h3>Execution</h3>
+      <p>From groundbreaking to completion, we deliver projects with precision, professionalism, and a focus on long-term durability.</p>
+    </div>
+    <div class="service-card">
+      <h3>Civil Engineering</h3>
+      <p>Specialized in infrastructure and large-scale civil engineering projects, building stronger foundations for communities.</p>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Genesis Construction SA | <a href="contactus.html">Contact Us</a></p>
+  </footer>
+</body>
+</html>
